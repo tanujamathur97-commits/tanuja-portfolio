@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-foundation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.cjs",
+    "test": "node --test",
+    "check": "node --check app.js && node --check fox.js && node --check server.cjs"
+  }
+}
